@@ -1,8 +1,5 @@
-# Mon Projet CI/CD
 
-![CI Pipeline](https://github.com/ThomasDziurdzi/test-ci-cd/actions/workflows/ci.yml/badge.svg)
-
-✅ Intégration Continue fonctionnelle avec GitHub Actions
+![CI Pipeline](https://github.com/ThomasDziurdzi/test-ci-cd/actions/workflows/ci.yml/badge.svg) [![Playwright Tests](https://github.com/ThomasDziurdzi/test-ci-cd/actions/workflows/playwright.yml/badge.svg)](https://github.com/ThomasDziurdzi/test-ci-cd/actions/workflows/playwright.yml)
 
 # React + TypeScript + Vite
 
