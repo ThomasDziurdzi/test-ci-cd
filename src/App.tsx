@@ -5,8 +5,6 @@ import './App.css';
 
 function App() {
   const [count, setCount] = useState(0);
-  var maVariable="test"  // Erreur : var + mauvais espacement
-  console.log("debug")   // Erreur : console.log en prod
 
   return (
     <>
