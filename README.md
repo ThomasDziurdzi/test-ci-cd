@@ -1,3 +1,9 @@
+# Mon Projet CI/CD
+
+![CI Pipeline](https://github.com/TON-USERNAME/mon-projet-ci/actions/workflows/ci.yml/badge.svg)
+
+✅ Intégration Continue fonctionnelle avec GitHub Actions
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
