@@ -1,6 +1,6 @@
 # Mon Projet CI/CD
 
-![CI Pipeline](https://github.com/TON-USERNAME/mon-projet-ci/actions/workflows/ci.yml/badge.svg)
+![CI Pipeline](https://github.com/ThomasDziurdzi/test-ci-cd/actions/workflows/ci.yml/badge.svg)
 
 ✅ Intégration Continue fonctionnelle avec GitHub Actions
 
