@@ -1,0 +1,69 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-weight: 600;
+  font-family: inherit;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+/* Sizes */
+.badge--small {
+  padding: 2px 8px;
+  font-size: 11px;
+  line-height: 1.4;
+}
+
+.badge--medium {
+  padding: 4px 12px;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+/* Variants - Info (Bleu) */
+.badge--info {
+  background-color: #e7f3ff;
+  color: #0066cc;
+  border: 1px solid #b3d9ff;
+}
+
+/* Variants - Success (Vert) */
+.badge--success {
+  background-color: #e7f7ed;
+  color: #1e7e34;
+  border: 1px solid #b3e6c5;
+}
+
+/* Variants - Warning (Orange) */
+.badge--warning {
+  background-color: #fff8e6;
+  color: #856404;
+  border: 1px solid #ffe9a3;
+}
+
+/* Variants - Danger (Rouge) */
+.badge--danger {
+  background-color: #ffe6e6;
+  color: #bd2130;
+  border: 1px solid #ffb3b3;
+}
+
+/* Pill style */
+.badge--pill {
+  border-radius: 50px;
+}
+
+/* Icon */
+.badge__icon {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* Hover effect (optionnel) */
+.badge:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

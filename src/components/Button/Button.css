@@ -1,0 +1,101 @@
+.btn {
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  font-family: inherit;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btn:not(:disabled):hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.btn:not(:disabled):active {
+  transform: translateY(0);
+}
+
+/* Variants */
+.btn--primary {
+  background: #007bff;
+  color: white;
+}
+
+.btn--primary:not(:disabled):hover {
+  background: #0056b3;
+}
+
+.btn--secondary {
+  background: #6c757d;
+  color: white;
+}
+
+.btn--secondary:not(:disabled):hover {
+  background: #545b62;
+}
+
+.btn--danger {
+  background: #dc3545;
+  color: white;
+}
+
+.btn--danger:not(:disabled):hover {
+  background: #bd2130;
+}
+
+.btn--success {
+  background: #28a745;
+  color: white;
+}
+
+.btn--success:not(:disabled):hover {
+  background: #1e7e34;
+}
+
+/* Sizes */
+.btn--small {
+  padding: 6px 12px;
+  font-size: 12px;
+}
+
+.btn--medium {
+  padding: 10px 20px;
+  font-size: 14px;
+}
+
+.btn--large {
+  padding: 14px 28px;
+  font-size: 16px;
+}
+
+/* Loading state */
+.btn--loading {
+  cursor: wait;
+}
+
+.btn__spinner {
+  animation: spin 1s linear infinite;
+}
+
+.btn__text--loading {
+  opacity: 0.7;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
